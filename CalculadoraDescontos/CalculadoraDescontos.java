@@ -1,4 +1,4 @@
-package CalculadoraCustoViagem.CalculadoraDescontos;
+package Java CalculadoraDescontos;
 
 import java.util.Scanner;
 public class CalculadoraDescontos {public void calcular20(){
@@ -7,7 +7,7 @@ public class CalculadoraDescontos {public void calcular20(){
         System.out.println("informe o Preço do Produto");
     
      double precoProduto = sc.nextDouble();
-    final int desconto20 = 20;20
+    final int desconto20 = 20;
     double precoComDesconto = precoProduto - (precoProduto*desconto20/100);
     System.out.println("O Preço com Desconto é"
     + precoComDesconto + "reais");
