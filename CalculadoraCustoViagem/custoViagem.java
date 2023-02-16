@@ -1,4 +1,4 @@
- package CalculadoraCustoViagem;
+ package lib;
 
 class custoViagem {
 
