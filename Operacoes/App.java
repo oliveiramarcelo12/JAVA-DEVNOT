@@ -12,11 +12,14 @@ public class App {
         objeto2.atribuicao();
         Operadores objeto3 = new Operadores();
         objeto3.relacionais();
+        Operadores objeto4= new Operadores();
+        objeto4.logico();
         
      
     }
 
 }
+
     
 
     

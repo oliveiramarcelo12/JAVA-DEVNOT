@@ -54,34 +54,69 @@ public class Operadores {
         System.out.println("===============================");
 
     }
+
     public void relacionais() {
         System.out.println("===============================");
-// Faça testes alterando o valor das duas variáveis abaixo.
-int primeiraVariavel = 190;
-int segundaVariavel = 4;
-System.out.println("O valor da primeira variável é "
-+ primeiraVariavel + " e o da segunda é "
-+ segundaVariavel + ".");
-boolean primeiraVariavelEMaiorQueASegunda = primeiraVariavel > segundaVariavel;
-System.out.println("Primeira variável é maior que a segunda? "
-+ primeiraVariavelEMaiorQueASegunda);
-boolean primeiraVariavelEMenorQueASegunda = primeiraVariavel < segundaVariavel;
-System.out.println("Primeira variável é menor que a segunda? "
-+ primeiraVariavelEMenorQueASegunda);
-boolean primeiraVariavelEMaiorIgualASegunda = primeiraVariavel >= segundaVariavel;
-System.out.println("Primeira variável é maior ou igual a segunda? "
-+ primeiraVariavelEMaiorIgualASegunda);
-boolean primeiraVariavelEMenorIgualASegunda = primeiraVariavel <= segundaVariavel;
-System.out.println("Primeira variável é menor ou igual a segunda? "
-+ primeiraVariavelEMenorIgualASegunda);
-boolean primeiraVariavelEIgualASegunda = primeiraVariavel == segundaVariavel;
-System.out.println("Primeira variável é igual a segunda? "
-+ primeiraVariavelEIgualASegunda);
-boolean primeiraVariavelEDiferenteDaSegunda = primeiraVariavel != segundaVariavel;
-System.out.println("Primeira variável é diferente da segunda? "
-+ primeiraVariavelEDiferenteDaSegunda);
-System.out.println("Fim!");
-System.out.println("===============================");
-        
+        // Faça testes alterando o valor das duas variáveis abaixo.
+        int primeiraVariavel = 7;
+        int segundaVariavel = 36;
+        System.out.println("O valor da primeira variável é "
+                + primeiraVariavel + " e o da segunda é "
+                + segundaVariavel + ".");
+        boolean primeiraVariavelEMaiorQueASegunda = primeiraVariavel > segundaVariavel;
+        System.out.println("Primeira variável é maior que a segunda? "
+                + primeiraVariavelEMaiorQueASegunda);
+        boolean primeiraVariavelEMenorQueASegunda = primeiraVariavel < segundaVariavel;
+        System.out.println("Primeira variável é menor que a segunda? "
+                + primeiraVariavelEMenorQueASegunda);
+        boolean primeiraVariavelEMaiorIgualASegunda = primeiraVariavel >= segundaVariavel;
+        System.out.println("Primeira variável é maior ou igual a segunda? "
+                + primeiraVariavelEMaiorIgualASegunda);
+        boolean primeiraVariavelEMenorIgualASegunda = primeiraVariavel <= segundaVariavel;
+        System.out.println("Primeira variável é menor ou igual a segunda? "
+                + primeiraVariavelEMenorIgualASegunda);
+        boolean primeiraVariavelEIgualASegunda = primeiraVariavel == segundaVariavel;
+        System.out.println("Primeira variável é igual a segunda? "
+                + primeiraVariavelEIgualASegunda);
+        boolean primeiraVariavelEDiferenteDaSegunda = primeiraVariavel != segundaVariavel;
+        System.out.println("Primeira variável é diferente da segunda? "
+                + primeiraVariavelEDiferenteDaSegunda);
+        System.out.println("Fim!");
+        System.out.println("===============================");
+
+    }
+
+    public void logico() {
+        System.out.println("===============================");
+        // Faça testes alterando o valor das quatro variáveis abaixo.
+        // Lembrando, elas podem ser true ou false.
+        boolean usuarioVIP = false;
+        boolean compraComValorAlto = true;
+        boolean menorDeIdade = true;
+        boolean temProdutoAlcoolicoNoCarrinho = true;
+        System.out.println("Usuário é VIP? " + usuarioVIP);
+        System.out.println("A compra tem um valor alto? "
+                + compraComValorAlto);
+        System.out.println("É menor de idade? " + menorDeIdade);
+        System.out.println("Tem produto alcoólico no carrinho? "
+                + temProdutoAlcoolicoNoCarrinho);
+        System.out.println("===============================");
+        boolean aplicarDesconto = usuarioVIP && compraComValorAlto;
+        System.out.println("O desconto deve ser aplicado? "
+                + "(usuarioVIP && compraComValorAlto): "
+                + aplicarDesconto);
+        aplicarDesconto = usuarioVIP || compraComValorAlto;
+        System.out.println("O desconto deve ser aplicado? "
+                + "(usuarioVIP || compraComValorAlto): "
+                + aplicarDesconto);
+        // Leia assim: "se não for menor de idade ou se
+        // não tiver produto alcoólico".
+        boolean permiteConcluirCompra = !menorDeIdade || !temProdutoAlcoolicoNoCarrinho;
+        System.out.println("Pode concluir compra? "
+                + "(!menorDeIdade || !temProdutoAlcoolicoNoCarrinho): "
+                + permiteConcluirCompra);
+        System.out.println("Fim!");
+        System.out.println("===============================");
+
     }
 }
