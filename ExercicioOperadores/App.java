@@ -4,7 +4,10 @@ package ExercicioOperadores;
  * App
  */
 public class App {
+    public static void main(String[] args) {
+        NotaAlunos objeto1 = new NotaAlunos();
+        objeto1.notaFrequencia();
+    }
 
-    Operacoes.ExercicioOperadores objeto1= new Operacoes;
-    objeto1.Operacoes
+   
 }
