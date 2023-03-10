@@ -1,9 +1,10 @@
-package Operacoes.exercicioIfElse;
+package exercicioIfElse;
 
 import java.util.Scanner;
 
 public class exercicios {
     Scanner sc= new Scanner(System.in);
+    int a,b,c;
     public void exercicio1() {
         System.out.println("Informe o valor1");
         int Valor1= sc.nextInt();
@@ -98,14 +99,28 @@ public class exercicios {
         
        
         public void exercicio5() {
-            System.out.println("Digite Um Número Inteiro");
-            int Numero1=sc.nextInt();
-            System.out.println("Digite Mais Um Número Inteiro");
-            int Numero2=sc.nextInt();
-            System.out.println("Digite O Ultimo Número Inteiro");
-            int Numero3=sc.nextInt();
+            System.out.println("Informe o Primeiro Número Inteiro");
+            a=sc.nextInt();
+            System.out.println("Informe o Segundo Número Inteiro");
+          b=sc.nextInt();
+            System.out.println("Informe o Terceiro Número Inteiro");
+           c=sc.nextInt();
+            if (a<b && b<c) {
+                System.out.println("Os Números na Ordem Crescente São:"+a+b+c);
 
+                
+            }
+           else if (a>b && b>c) {
+                System.out.println("Os Números na Ordem Crescente São:"+a+b+c);
+
+                
+            }
+            else if () {
+                System.out.println("Os Números na Ordem Crescente São:"+a+b+c);
+           
             
+            
+           
 
             
         }

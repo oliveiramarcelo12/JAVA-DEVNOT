@@ -1,6 +1,6 @@
-package Operacoes.exercicioIfElse;
+package exercicioIfElse;
 
-import Operacoes.exercicioIfElse.exercicios;
+import exercicioIfElse.exercicios;
 
 public class app {public static void main(String[] args) {
     exercicios objeto1= new exercicios();
